@@ -1,0 +1,8 @@
+export {default as Navbar} from './Navbar/Navbar';
+export {default as About} from './About';
+export {default as Academics} from './Academics';
+export {default as Home} from './Home';
+export {default as Contact} from './Contact';
+export {default as Gallery} from './Gallery';
+export {default as SignUp} from './SignUp';
+export {default as Events} from './Events';

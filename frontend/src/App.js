@@ -1,29 +1,24 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages';
-import About from './pages/about';
-import Events from './pages/events';
-import Gallery from './pages/gallery';
-import Academics from './pages/academics';
-import Contact from './pages/contact';
-import SignUp from './pages/signup';
-
+import {Navbar,Home,About,Academics,Events,Gallery,Contact,SignUp} from './components'
 function App() {
 return (
 	<Router>
+		<div>
+
 	<Navbar />
 	<Routes>
-		<Route path='/' exact component={Home} />
-		<Route path='/about' component={About} />
-    <Route path='/academics' component={Academics} />
-		<Route path='/events' component={Events} />
-		<Route path='/gallery' component={Gallery} />
+		<Route path='/' exact element={<Home/>} />
+		<Route path='/about' element={<About/>} />
+    <Route path='/academics' element={<Academics/>} />
+		<Route path='/events' element={<Events/>} />
+		<Route path='/gallery' element={<Gallery/>} />
 		
-		<Route path='/contact' component={Contact} />
-		<Route path='/sign-up' component={SignUp} />
+		<Route path='/contact' element={<Contact/>} />
+		<Route path='/sign-up' element={<SignUp/>} />
 	</Routes>
+	</div>
 	</Router>
 );
 }
