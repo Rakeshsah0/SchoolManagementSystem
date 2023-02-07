@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    display: inline;
+    color: #003566;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.navbar{
+    position: sticky;
+    top:0px;
+}
+
+.hovering-board{
+    display: flex;
+    justify-content: space-between;
+    background-color: #003566;
+    width: 100%;
+    height: 35px;
+}
+.hovering-board p{
+    color: white;
+}
+.hovering-board-first{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.hovering-board-first p{
+    margin:3px;
+}
+
+.hovering-board-second{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.hovering-board-second p{
+    margin:3px;
+}
+.hovering-board-second a{
+    margin:10px;
+}
+
+.actual-navbar{
+    display: flex;
+    height:60px;
+    background-image: linear-gradient(to right,#fff,#e3e4e8);
+
+}
+
+.logo{
+    width:25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 100%;
+}
+
+.menu-items{
+    width:50%;
+}
+
+.menu-items ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    width:25%
+}
+
+.form div{
+    background-color: #ffb800;
+    height:50%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
