@@ -1,8 +1,10 @@
 import express from "express";
 import studentRoute from './routes/students.js'
 import teacherRoute from './routes/teachers.js'
+import cors from 'cors'
 var app=express()
 
+app.use(cors())
 app.get('/',(req,res)=>{
     res.send("Hello from express")
 })

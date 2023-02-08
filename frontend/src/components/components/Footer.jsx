@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="navbar">
+    <div className="footer">
       <div className="attached-top-footer">
         <input type="email" placeholder="Enter your email" />
         <button type="submit">
@@ -47,25 +47,24 @@ const Footer = () => {
             <p>College Life</p>
           </Link>
         </div>
-        <div>
+        <div className="map-section">
           <p id="quick-links-2">Contact Us</p>
+          <div>
           <p>+977-9812345678</p>
           <p>email@gmail.com</p>
-          <div style={{height:'35vh',width:'100%', margin:"10px 0px 0px 0px"}}>
+          </div>
           <iframe 
         width="100%" 
         height="100%" 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.7761950600825!2d85.3189404144332!3d27.693311282797772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b032e93fc1%3A0x4a61dc499d928027!2sSt.%20Xavier&#39;s%20College!5e0!3m2!1sen!2snp!4v1675846307649!5m2!1sen!2snp" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.481048947718!2d84.87670721441468!3d27.014961283083636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39935440af3b59e3%3A0x5aa0411733213e6a!2sBirgunj%20GhantaGhar!5e0!3m2!1sen!2snp!4v1675847154277!5m2!1sen!2snp" 
         allowFullScreen 
-
       />
-          </div>
         </div>
       </div>
 
       <div className="copyright-footer">
-        <p>National Infotech College © 2023. All Rights Reserved.</p>
-        <p>Developed by Adsbee Media Pvt. Ltd.</p>
+        <p>Education College © 2023. All Rights Reserved.</p>
+        <p>Developed by R&R PVT.LTD</p>
          
         
       </div>

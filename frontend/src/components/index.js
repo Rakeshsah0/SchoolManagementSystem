@@ -17,3 +17,4 @@ export {default as NewAdmission} from './components/NewAdmission';
 export {default as NoticeBoard} from './components/NoticeBoard';
 export {default as Footer} from './components/Footer';
 export {default as Counseling} from './components/Counseling';
+export {default as TeacherCard} from './components/TeacherCard';
