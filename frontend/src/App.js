@@ -5,8 +5,8 @@ import {Navbar,Home,About,OurTeam,CollegeLife,NationalInfotechCup2079,Science2,B
 function App() {
 return (
 	<Router>
-		<div>
 	<Navbar />
+		<div className='main-body'>
 	<Routes>
 		<Route path='/' exact element={<Home/>} />
 		<Route path='/about' element={<About/>} />
@@ -27,8 +27,8 @@ return (
 		<Route path='/counseling' element={<Counseling/>}/>
 
 	</Routes>
-	<Footer/>
 	</div>
+	<Footer/>
 	</Router>
 );
 }

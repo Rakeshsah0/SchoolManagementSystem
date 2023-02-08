@@ -2,13 +2,14 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import '../css/Navbar.css'
 import logo from '../../assets/schoollogo.jpg'
+
+
 const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="hovering-board">
         <div className="hovering-board-first">
         <Link to='/counseling'>
-          <p>logo</p>
           <p>Personalized Counseling</p>
         </Link>
         </div>
