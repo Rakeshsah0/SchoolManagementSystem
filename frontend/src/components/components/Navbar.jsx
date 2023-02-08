@@ -21,11 +21,11 @@ const Navbar = () => {
           <p><FontAwesomeIcon icon={faCalendar} /></p>
           <p>Notices</p>
         </Link>
-        <a href="#">
+        <a href="/#">
         <p><FontAwesomeIcon icon={faPhone} /></p>
         <p>+977-9812345678</p>
         </a>
-        <a href="#">
+        <a href="/#">
         <p><FontAwesomeIcon icon={faEnvelopeOpen} /></p>
         <p>email@gmail.com</p>
         </a>
