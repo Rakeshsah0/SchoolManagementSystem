@@ -25,8 +25,13 @@
     border: none;
     margin: 10px;
 }
-
-
+.attached-top-footer button{
+    all: unset;
+    margin-left: 1%;
+}
+.attached-top-footer button p{
+    font-size: 26px;
+}
 .fixed-buttom-footer{
     display: flex;
     justify-content: space-evenly;
