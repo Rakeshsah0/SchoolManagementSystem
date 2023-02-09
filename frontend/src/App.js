@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {Navbar,Home,About,OurTeam,CollegeLife,NationalInfotechCup2079,Science2,BCA,BscCsit,WhyScience,ExamPreparationMaterial,ResourceCenter,Science2Ebook,EbooksPdfs,Contact,NewAdmission,NoticeBoard,Footer, Counseling} from './components'
+import {Navbar,Home,About,OurTeam,CollegeLife,NationalInfotechCup2079,Science2,BCA,BscCsit,WhyScience,ExamPreparationMaterial,ResourceCenter,Science2Ebook,EbooksPdfs,Contact,NewAdmission,NoticeBoard,Footer, Counseling,TeacherProfile} from './components'
 function App() {
 return (
 	<Router>
@@ -25,6 +25,7 @@ return (
 		<Route path='/admission' element={<NewAdmission/>}/>
 		<Route path='/notice-board' element={<NoticeBoard/>}/>
 		<Route path='/counseling' element={<Counseling/>}/>
+		<Route path={`/teachers/:teacher_id`} element={<TeacherProfile/>}/>
 
 	</Routes>
 	</div>
