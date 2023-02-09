@@ -3,7 +3,7 @@ import {fetchTeachers,fetchTeacher,createTeacher} from "../controllers/teachers.
 const router=express.Router()
 
 router.get('/',fetchTeachers)
-router.get('/:id',fetchTeacher)
+router.get('/:teacher_id',fetchTeacher)
 router.post('/createStudent',createTeacher)
 
 export default router

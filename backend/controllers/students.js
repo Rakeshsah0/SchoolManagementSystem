@@ -16,8 +16,8 @@ export const fetchStudents=(req,res)=>{
 }
 
 export const fetchStudent=(req,res)=>{
-    const id=req.params.id
-    const fetchStudent=`select * from Students where student_id=${id}`
+    const student_id=req.params.student_id
+    const fetchStudent=`select * from Students where student_id=${student_id}`
     db.query(fetchStudent,(error,result)=>{
         if(error) console.log(error)
         else res.send(result)

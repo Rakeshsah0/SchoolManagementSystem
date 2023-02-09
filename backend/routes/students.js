@@ -3,7 +3,7 @@ import {fetchStudents,fetchStudent,createStudent} from "../controllers/students.
 const router=express.Router()
 
 router.get('/',fetchStudents)
-router.get('/:id',fetchStudent)
+router.get('/:student_id',fetchStudent)
 router.post('/createStudent',createStudent)
 
 export default router

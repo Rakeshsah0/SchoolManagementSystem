@@ -32,9 +32,13 @@ const Navbar = () => {
         </div>
       </div>
       <div className="actual-navbar">
+  
         <div className="logo">
+          <Link to='/'>
           <img src={logo} alt="logo" />
+          </Link>
         </div>
+        
         <div className="menu-items">
           <ul>
             <li>

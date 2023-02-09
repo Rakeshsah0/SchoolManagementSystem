@@ -9,7 +9,7 @@ import axios from 'axios'
 const OurTeam = () => {
   const [teachers, setteachers] = useState([])
   useEffect(() =>{
-    axios.get('http://localhost:5000/teachers').then((teachers)=>setteachers(teachers.data))
+    axios.get('http://localhost:5000/teachers').then((items)=>setteachers(items.data))
   }
   , [])
   
