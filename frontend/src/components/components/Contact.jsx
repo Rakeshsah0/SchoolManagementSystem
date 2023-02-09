@@ -9,7 +9,7 @@ const Contact = () => {
 
       <div class="first-child">
       <h2 class="contact-title">Contact Us</h2>
-      <p>If you have any Query. Then you are very welcome to contact us or drop in your details below in Form.</p>
+      <p>If you have any Query, then you are very welcome to Contact us <br></br> OR <br></br>Drop in your details below in Form.</p>
       </div>
       
       <div class="second-child">
@@ -36,7 +36,7 @@ const Contact = () => {
 <div class="Contact-Map">
     <div class="form">
       <form className="contact-form" method="POST">
-      <p>Drop Us Your Query</p>
+      <p className='contact-title'>Drop Us Your Query</p>
       <div className="form-group">
         <input type="email" name="email" className="form-control" aria-describedby="emailHelp" placeholder='Enter your email' />
     </div>

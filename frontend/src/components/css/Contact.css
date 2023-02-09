@@ -1,6 +1,6 @@
 .container .first-child{
     margin-top: -3%;
-    height: 20%;
+    height: 300px;
     margin-bottom: 1%;
     text-align: center;
     background-color: rgb(87, 87, 167);
@@ -10,11 +10,13 @@
 }
 .container .first-child .contact-title{
     font-size: 60px;
+    color:#ffffff;
 }
 .container .first-child p{
     margin-top: 0;
     font-size: 20px;
     padding: 20px;
+    color:#ffffff;
 }
 
 .container .second-child{
@@ -25,22 +27,49 @@
     justify-content: space-evenly;
 }
 .container .second-child .address{
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 30%;
+    background-color:#f3f3f3;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(184, 182, 182, 0.4);
+}
+
+.container .second-child .address:hover{
+    box-shadow: 0px 0px 10px 5px rgba(5, 18, 161, 0.571);
 }
 .container .second-child .call-us{
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 305px;
+    width: 30%;
+    background-color:#f3f3f3;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(184, 182, 182, 0.4);
+}
+.container .second-child .call-us:hover{
+    box-shadow: 0px 0px 10px 5px rgba(5, 18, 161, 0.571);
 }
 .container .second-child .email-us{
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 305px;
+    width: 30%;
+    background-color:#f3f3f3;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(184, 182, 182, 0.4);
+}
+.container .second-child .email-us:hover{
+    box-shadow: 0px 0px 10px 5px rgba(5, 18, 161, 0.571);
 }
 .address .faAddress{
     color: blue;
@@ -56,7 +85,7 @@
 }
 
 .container .Contact-Map{
-    height: 30%;
+    height: 400px;
     margin-top: 1%;
     display: flex;
     align-items: center;
@@ -68,7 +97,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
 }
 
 .container .Contact-Map .map{
@@ -76,4 +104,29 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 400px;
+    aspect-ratio: 1.2;
+}
+.container .Contact-Map .map p{
+    font-size: 40px;
+}
+.contact-form input, textarea{
+    display: block;
+    width: 100%;
+    padding: .5rem .8rem .5rem .8rem;
+    margin: .9vw 0 ;
+    border: 3px solid rgba(5, 18, 161, 0.571);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.contact-form p.contact-title{
+    font-size: 40px;
+}
+.contact-form button{
+        width: 300px;
+        background-color: rgb(47, 35, 205);  
+        color: white;  
+        font-size: 25px;  
+        margin: auto;  
+        border-radius: 5px;
 }
