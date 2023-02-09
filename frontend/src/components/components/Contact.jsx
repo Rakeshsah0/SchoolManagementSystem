@@ -1,11 +1,13 @@
 import React from 'react'
+import image from "../../assets/book_read.jpg"
 import "../css/Contact.css";
 import { faPhoneSquare,faEnvelope,faHomeLg } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   return (
-    <div class="container">
+    <div class="container" style={{ 
+      backgroundImage: `${image}`}} >
 
       <div class="first-child">
       <h2 class="contact-title">Contact Us</h2>
