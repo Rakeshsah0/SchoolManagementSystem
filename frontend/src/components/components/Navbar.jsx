@@ -73,7 +73,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="form">
-          <div>
+          <div className='admission-form'>
           <Link to='/admission'>
           <p>Admission Form</p>
           </Link>

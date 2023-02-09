@@ -8,9 +8,9 @@ const TeacherProfile = () => {
   useEffect(() =>{
     axios.get(`http://localhost:5000/teachers/${teacher_id}`).then((items)=>setteacherDetail(items.data[0]))
   }
-  , [])
+  , [teacher_id])
 
-  const url='./teachers/1.jpeg'
+  // const url='./teachers/1.jpeg'
   return (
     <div>
       <div style={{display: 'flex', width: '100%', paddingTop:'20px'}}>

@@ -1,0 +1,79 @@
+.container .first-child{
+    margin-top: -3%;
+    height: 20%;
+    margin-bottom: 1%;
+    text-align: center;
+    background-color: rgb(87, 87, 167);
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container .first-child .contact-title{
+    font-size: 60px;
+}
+.container .first-child p{
+    margin-top: 0;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.container .second-child{
+    height: 30%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container .second-child .address{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container .second-child .call-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container .second-child .email-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.address .faAddress{
+    color: blue;
+    font-size: 90px;;
+}
+.call-us .faPhone{
+    color: blue;
+    font-size: 100px;;
+}
+.email-us .faEMail{
+    color: blue;
+    font-size: 100px;;
+}
+
+.container .Contact-Map{
+    height: 30%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.container .Contact-Map .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.container .Contact-Map .map{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

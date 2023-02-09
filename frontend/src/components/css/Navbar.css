@@ -81,7 +81,7 @@ ul{
     align-items: center;
 }
 
-.form{
+.actual-navbar .form{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,7 +89,7 @@ ul{
     width:25%
 }
 
-.form div{
+.form admission-form{
     background-color: #ffb800;
     height:50%;
     width:50%;
