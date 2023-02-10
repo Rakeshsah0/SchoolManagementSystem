@@ -1,9 +1,32 @@
-import React from 'react'
+import React from "react";
+import "../css/Home.css";
+import principle from "../../assets/Principle.jpg";
 
 const Home = () => {
   return (
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cum autem, id totam ullam vel, molestiae perferendis aspernatur molestias corporis consectetur suscipit laborum voluptate soluta quo sint odit! Labore ullam cum cumque exercitationem nam, quasi fuga delectus repellendus amet sapiente vel enim iste sunt adipisci veritatis ex voluptas. Pariatur excepturi, repellat accusamus ad quae blanditiis consequatur tenetur animi consectetur numquam quas voluptatem earum quisquam enim corrupti adipisci. Voluptates at expedita repudiandae necessitatibus accusantium id minima sit et, dignissimos, a, itaque quod excepturi hic. Quae repudiandae, repellat unde aliquam impedit deleniti aut! Pariatur molestias modi necessitatibus quos dolore optio aspernatur odio.</div>
-  )
-}
+    <div className="Home-Cointainer">
+      <div className="Advertise-Desc"></div>
 
-export default Home
+      <div className="Advertise-Box">
+        <div className="Box1"></div>
+        <div className="Box2"></div>
+        <div className="Box3"></div>
+
+      </div>
+
+      <div className="Principle-Notes">
+        <div>
+        <h1>MESSAGE FROM PRINCIPAL</h1>
+        <p className="Aphostrophe">“</p>
+        <p className="Message"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid velit natus veniam delectus, inventore accusantium aliquam a harum perspiciatis autem odit suscipit debitis quia corrupti sapiente, et aperiam! Facilis.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et soluta dolor nihil corporis praesentium temporibus omnis, quibusdam dolorem laudantium natus odit molestiae velit debitis porro, similique necessitatibus quae deleniti. Magni.</p>
+        </div>
+        <div className="Photo">
+          <img src={principle} alt="Principle" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;

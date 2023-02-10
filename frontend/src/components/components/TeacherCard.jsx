@@ -12,8 +12,7 @@ const TeacherCard = ({teacherDetails}) => {
           </div>
           <div className="container2">
             <p>{teacherDetails.full_name}</p>
-            <p>{teacherDetails.designation}</p>
-            <p>{teacherDetails.highest_qualification}</p>
+            <p>{teacherDetails.designation}({teacherDetails.highest_qualification})</p>
           </div>
       </div>
       </Link>

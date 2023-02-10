@@ -1,0 +1,17 @@
+
+
+.Principle-Notes .Aphostrophe{
+    content: "“";
+    font-size: 100px;
+    color: rgb(6, 127, 248);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 900;
+    line-height: 1;
+    display: block;
+    height: 0.6em;
+}
+.Photo img{
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+}
