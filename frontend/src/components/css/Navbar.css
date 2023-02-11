@@ -78,7 +78,7 @@ ul{
 .menu-items ul{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .actual-navbar .form{
@@ -98,3 +98,21 @@ ul{
     align-items: center;
 }
 
+.courses-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: -17px;
+    height: 100%;
+    width: 100%;
+}
+.courses-menu .items-menu{
+    background-color: #e3e4e8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

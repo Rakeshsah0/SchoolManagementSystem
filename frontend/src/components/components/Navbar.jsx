@@ -1,12 +1,22 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import '../css/Navbar.css'
-import { faCalendar,faPhone,faEnvelopeOpen,faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faCalendar,faPhone,faEnvelopeOpen,faUsers,faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from '../../assets/schoollogo.jpg'
 
 
 const Navbar = () => {
+  const [showOptions, setShowOptions] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowOptions(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowOptions(false);
+  };
+
   return (
     <div className='navbar'>
       <div className="hovering-board">
@@ -57,7 +67,21 @@ const Navbar = () => {
             </li>
             <li>
               <Link to='/'>
-              <p>Courses</p>
+              <div className='courses-menu'
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    > 
+      <p>Courses &nbsp;
+      <FontAwesomeIcon icon={faChevronDown} />
+      </p>
+      {showOptions && (
+        <div className='items-menu'>
+          <p>item1</p>
+          <p>item2</p>
+          <p>item3</p>
+        </div>
+      )}
+    </div>
               </Link>
             </li>
             <li>
