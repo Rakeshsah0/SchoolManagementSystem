@@ -76,9 +76,13 @@ const Navbar = () => {
       </p>
       {showOptions && (
         <div className='items-menu'>
-          <p>item1</p>
-          <p>item2</p>
-          <p>item3</p>
+          <div>
+          <Link to='2-science'>
+          <p>+2 Science</p>
+          </Link>
+          </div>
+          <div><Link to='bca'><p>BCA</p></Link></div>
+          <div><Link to='bsc-csit'><p>BSC CSIT</p></Link></div>
         </div>
       )}
     </div>
