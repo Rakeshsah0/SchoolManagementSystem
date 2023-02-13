@@ -24,6 +24,3 @@ export const fetchStudent=(req,res)=>{
     })
 }
 
-export const createStudent=(req,res)=>{
-    res.send(`Hello from create Student with detail ${[...req.body]}`)
-}
