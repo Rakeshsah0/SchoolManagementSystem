@@ -89,13 +89,14 @@ ul{
     width:25%
 }
 
-.form admission-form{
+.form .admission-form{
     background-color: #ffb800;
     height:50%;
     width:50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
 }
 
 .courses-menu{
@@ -122,4 +123,12 @@ ul{
     width: 100%;
     margin-top: 10px;
     background-color: #e3e3e3;
+
+}
+.courses-menu .items-menu div a{
+    width: 100%;
+}
+
+.courses-menu .items-menu div:nth-child(2) a{
+    padding-left: 20px;
 }

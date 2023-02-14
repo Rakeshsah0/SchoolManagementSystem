@@ -19,3 +19,4 @@ export {default as Footer} from './components/Footer';
 export {default as Counseling} from './components/Counseling';
 export {default as TeacherCard} from './components/TeacherCard';
 export {default as TeacherProfile} from './components/TeacherProfile';
+export {default as Login} from './components/Login';

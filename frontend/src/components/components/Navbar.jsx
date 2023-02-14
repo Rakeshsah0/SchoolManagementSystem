@@ -102,8 +102,13 @@ const Navbar = () => {
         </div>
         <div className="form">
           <div className='admission-form'>
-          <Link to='/admission'>
-          <p>Admission Form</p>
+          <Link to='/login/teacher'>
+          <p>Teacher Login</p>
+          </Link>
+          </div>
+          <div className='admission-form'>
+          <Link to='/login/student'>
+          <p>Student Login</p>
           </Link>
           </div>
         </div>

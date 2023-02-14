@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {Navbar,Home,About,OurTeam,CollegeLife,NationalInfotechCup2079,Science2,BCA,BscCsit,WhyScience,ExamPreparationMaterial,ResourceCenter,Science2Ebook,EbooksPdfs,Contact,NewAdmission,NoticeBoard,Footer, Counseling,TeacherProfile} from './components'
+import {Navbar,Home,About,OurTeam,CollegeLife,NationalInfotechCup2079,Science2,BCA,BscCsit,WhyScience,ExamPreparationMaterial,ResourceCenter,Science2Ebook,EbooksPdfs,Contact,NewAdmission,NoticeBoard,Footer, Counseling,TeacherProfile,Login} from './components'
+import { useState } from 'react';
 function App() {
+	const [navandfooter, setnavandfooter] = useState(true)
 return (
 	<Router>
-	<Navbar />
+		{
+			navandfooter&&
+		<Navbar />
+		}
 		<div className='main-body'>
 	<Routes>
 		<Route path='/' exact element={<Home/>} />
@@ -26,10 +31,14 @@ return (
 		<Route path='/notice-board' element={<NoticeBoard/>}/>
 		<Route path='/counseling' element={<Counseling/>}/>
 		<Route path={`/teachers/:teacher_id`} element={<TeacherProfile/>}/>
+		<Route path={`/login/:profile`} element={<Login navandfooter={navandfooter} setnavandfooter={setnavandfooter} />}/>
+		<Route path={`/login`} element={<Login navandfooter={navandfooter} setnavandfooter={setnavandfooter}/>}/>
 
 	</Routes>
 	</div>
+	{navandfooter&&
 	<Footer/>
+	}
 	</Router>
 );
 }
