@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className="hovering-board">
         <div className="hovering-board-first">
-        <Link to='/counseling'>
+        <Link to='/'>
         <p><FontAwesomeIcon icon={faUsers} /></p>
           <p>Personalized Counseling</p>
         </Link>
@@ -31,11 +31,11 @@ const Navbar = () => {
           <p><FontAwesomeIcon icon={faCalendar} /></p>
           <p>Notices</p>
         </Link>
-        <a href="/#">
+        <a>
         <p><FontAwesomeIcon icon={faPhone} /></p>
         <p>+977-9812345678</p>
         </a>
-        <a href="/#">
+        <a>
         <p><FontAwesomeIcon icon={faEnvelopeOpen} /></p>
         <p>email@gmail.com</p>
         </a>
