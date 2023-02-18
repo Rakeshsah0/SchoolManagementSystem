@@ -1,0 +1,46 @@
+  .blob-big,.blob-small {
+      margin: 20px;
+      height: 239px;
+      display: flex;
+      width: 300px;
+      padding: 30px;
+      background: transparent;
+      box-shadow: inset 20px 20px 20px rgb(0 0 0 / 5%), 25px 35px 20px rgb(0 0 0 / 5%), 25px 30px 30px rgb(0 0 0 / 5%), inset -20px -20px 25px rgb(255 255 255 / 90%);
+      transition: all 0.3s ease-out;
+      align-items: center;
+      border-radius: 41% 59% 60% 40% / 44% 38% 62% 56%;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+  }
+  
+  .blob-big::before {
+    content: '';
+    position: absolute;
+    border-radius: 37% 54% 46% 46%;
+    background: white;
+    width: 50px;
+    transform: rotate(-30deg);
+    height: 15px;
+    top: 60px;
+    left: 30px;
+  }
+  
+  .blob-big::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    width:10px;
+    height: 10px;
+    top: 80px;
+    left: 20px;
+  }
+  .blob-big:hover{
+    border-radius:50%;
+  }
+  .small{
+    height:15px;
+    width:15px;
+    background-color:#e89393;
+  }
