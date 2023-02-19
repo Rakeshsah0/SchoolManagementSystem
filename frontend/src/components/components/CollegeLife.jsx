@@ -1,8 +1,8 @@
 import React from 'react'
-
+import { PamperCard } from '../layouts'
 const CollegeLife = () => {
   return (
-    <div>CollegeLife</div>
+    <PamperCard/>
   )
 }
 

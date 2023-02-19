@@ -89,8 +89,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to='/'>
-              <p>Download</p>
+              <Link to='/our-team'>
+              <p>Our Team</p>
               </Link>
             </li>
             <li>

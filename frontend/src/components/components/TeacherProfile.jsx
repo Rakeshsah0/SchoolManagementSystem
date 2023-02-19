@@ -1,7 +1,6 @@
 import React,{useEffect,useState } from 'react';
 import { useParams} from 'react-router-dom';
 import axios from 'axios'
-import {TeacherCard} from '../'
 const TeacherProfile = () => {
   const {teacher_id}=useParams()
   const [teacherDetail, setteacherDetail] = useState('')

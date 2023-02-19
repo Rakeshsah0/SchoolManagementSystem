@@ -35,11 +35,5 @@
     font-size: 20px;
 }
 
-.teachers-container{
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 0px 100px 0px
-}
+
+
