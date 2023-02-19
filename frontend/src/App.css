@@ -21,4 +21,14 @@ code {
 
 :root {
   --shaded-white: #f3f3f3;
+  --shaded-secondary:#aaaaaa;
+}
+.wrapper{
+  display:flex;
+  padding:60px;
+  justify-content:flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--shaded-white);
+  
 }

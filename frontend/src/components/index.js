@@ -9,6 +9,5 @@ export {default as BscCsit} from './components/BscCsit';
 export {default as Contact} from './components/Contact';
 export {default as NoticeBoard} from './components/NoticeBoard';
 export {default as Footer} from './components/Footer';
-export {default as TeacherCard} from './components/TeacherCard';
 export {default as TeacherProfile} from './components/TeacherProfile';
 export {default as Login} from './components/Login';
