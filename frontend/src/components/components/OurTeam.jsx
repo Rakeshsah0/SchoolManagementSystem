@@ -2,7 +2,6 @@ import React from 'react'
 import { useEffect,useState } from 'react';
 import '../css/OurTeam.css';
 import schoolPhoto from '../../assets/schoolPhoto.jpg'
-import {TeacherCard} from '../'
 import { ProfileCard } from '../layouts';
 import axios from 'axios'
 
