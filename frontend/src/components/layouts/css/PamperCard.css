@@ -1,0 +1,23 @@
+.pampercard{
+    background:#f3f3f3;
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pampercard-details{
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: auto;
+    width: 50%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-pamper-card{
+    margin:15px 0px 0px 50px;
+}

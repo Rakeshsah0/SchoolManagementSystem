@@ -1,8 +1,10 @@
 import React from 'react'
 import { PamperCard } from '../layouts'
+
 const CollegeLife = () => {
+  const image='/static/contact.webp'
   return (
-    <PamperCard/>
+    <PamperCard image={image}/>
   )
 }
 
