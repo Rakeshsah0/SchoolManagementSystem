@@ -46,7 +46,7 @@ const Home = () => {
   return (
     
     <div className="Home-Cointainer">
-       <div style={{ position: 'relative' }}>
+       <div style={{ position: 'relative' }} className="ImageContainer">
       <img src={images[slideIndex]} alt={`Slide ${slideIndex + 1}`} />
       <button style={arrowLeftStyle} onClick={prevSlide}><FaArrowLeft /></button>
       <button style={arrowRightStyle} onClick={nextSlide}><FaArrowRight /></button>
