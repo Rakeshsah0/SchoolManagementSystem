@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/PamperCard.css'
-import {FaArrowRight} from 'react-icons/fa'
+import {AiOutlineRight} from 'react-icons/ai'
 import {Link} from 'react-router-dom'
 const PamperCard = ({image}) => {
   return (
@@ -11,7 +11,7 @@ const PamperCard = ({image}) => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nostrum!</p>
       </div>
       <div className="current-pamper-card">
-       <Link to='/'><p className='white-color'>Home</p> </Link><FaArrowRight className='white-color'/> <p className='white-color'>Pampercard</p>
+       <Link to='/'><p className='white-color'>Home</p> </Link><AiOutlineRight className='white-color'/> <p className='white-color'>Pampercard</p>
       </div>
   </div>
   )
