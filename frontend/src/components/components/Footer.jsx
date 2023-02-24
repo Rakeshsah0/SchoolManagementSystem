@@ -1,7 +1,6 @@
 import React from "react";
 import "../css/Footer.css";
-import { faEnvelope,faCopyright,faPhoneVolume,faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {FaEnvelopeOpen,FaCopyright,FaPhoneVolume} from 'react-icons/fa'
 import logo from "../../assets/schoollogo.jpg";
 import { Link } from "react-router-dom";
 
@@ -14,7 +13,7 @@ const Footer = () => {
       <div className="attached-top-footer">
         <input type="email" placeholder="Enter your email" />
         <button type="submit">
-        <p><FontAwesomeIcon icon={faEnvelope} /></p>
+        <p><faEnvelope /></p>
         </button>
       </div>
       <div className="fixed-buttom-footer">
@@ -52,8 +51,8 @@ const Footer = () => {
         <div className="map-section">
           <p id="quick-links-2">Contact Us</p>
           <div>
-          <p><FontAwesomeIcon icon={faPhoneVolume} /> &nbsp;+977-9812345678</p>
-          <p><FontAwesomeIcon icon={faEnvelopeOpen}/> &nbsp;email@gmail.com</p>
+          <p><FaPhoneVolume /> &nbsp;+977-9812345678</p>
+          <p><FaEnvelopeOpen/> &nbsp;email@gmail.com</p>
           </div>
           <iframe  width="100%" 
           title="iframe"
@@ -65,7 +64,7 @@ const Footer = () => {
       </div>
 
       <div className="copyright-footer">
-        <p>Education College <FontAwesomeIcon icon={faCopyright}/> 2023. All Rights Reserved.</p>
+        <p>Education College <FaCopyright/> 2023. All Rights Reserved.</p>
         <p>Developed by R&R PVT.LTD</p>
          
         

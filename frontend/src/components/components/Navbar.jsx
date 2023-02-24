@@ -1,8 +1,7 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import '../css/Navbar.css'
-import { faCalendar,faPhone,faEnvelopeOpen,faUsers,faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {FaCalendar,FaUsers,FaPhoneAlt,FaChevronDown,FaEnvelopeOpen} from 'react-icons/fa'
 import logo from '../../assets/schoollogo.jpg'
 
 
@@ -22,21 +21,23 @@ const Navbar = () => {
       <div className="hovering-board">
         <div className="hovering-board-first">
         <Link to='/'>
-        <p><FontAwesomeIcon icon={faUsers} /></p>
+        <p><FaUsers/></p>
           <p>Personalized Counseling</p>
         </Link>
         </div>
         <div className="hovering-board-second">
         <Link to='/notice-board'>
-          <p><FontAwesomeIcon icon={faCalendar} /></p>
+          <p>
+            <FaCalendar/>
+          </p>
           <p>Notices</p>
         </Link>
         <a>
-        <p><FontAwesomeIcon icon={faPhone} /></p>
+        <p><FaPhoneAlt/></p>
         <p>+977-9812345678</p>
         </a>
         <a>
-        <p><FontAwesomeIcon icon={faEnvelopeOpen} /></p>
+        <p><FaEnvelopeOpen /></p>
         <p>email@gmail.com</p>
         </a>
         </div>
@@ -72,7 +73,7 @@ const Navbar = () => {
       onMouseLeave={handleMouseLeave}
     > 
       <p>Courses &nbsp;
-      <FontAwesomeIcon icon={faChevronDown} />
+      <FaChevronDown/>
       </p>
       {showOptions && (
         <div className='items-menu'>
