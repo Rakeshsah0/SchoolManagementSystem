@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import '../css/Navbar.css'
-import { faCalendar,faPhone,faEnvelopeOpen,faUsers,faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faCalendar,faPhone,faEnvelopeOpen,faUsers,faChevronDown,faGroups } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from '../../assets/schoollogo.jpg'
 
