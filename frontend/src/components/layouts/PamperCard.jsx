@@ -8,7 +8,7 @@ const PamperCard = ({image}) => {
     <div className='pampercard'>
       <div className="pampercard-details" style={{backgroundImage:`URL(${image})`}}>
           <h1>Pamper Card</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nostrum!</p>
+          <p>Lorem dolor sit amet consectetur adipisicing elit. Inventore, nostrum!</p>
       </div>
       <div className="current-pamper-card">
        <p><Link to='/'>Home </Link><FontAwesomeIcon icon={faCircleArrowRight}/> Pampercard</p>
