@@ -1,7 +1,6 @@
 import React from 'react'
 import './css/ProfileCard.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook,faTwitter,faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {FaFacebook,FaTwitter,FaInstagram} from 'react-icons/fa'
 const ProfileCard = ({profile}) => {
   console.log(profile)
   const image=`${profile.photo}`
@@ -11,9 +10,9 @@ const ProfileCard = ({profile}) => {
         <div class="card-back">
             <h2>{profile.full_name}<br/><span>{profile.designation}</span></h2>
             <div class="social-icons">
-                {profile.facebook?<FontAwesomeIcon icon={faFacebook} />:''}
-                {profile.facebook?<FontAwesomeIcon icon={faTwitter} />:''}
-                {profile.facebook?<FontAwesomeIcon icon={faInstagram} />:''}
+                {profile.facebook?<FaFacebook/>:''}
+                {profile.facebook?<FaInstagram/>:''}
+                {profile.facebook?<FaTwitter/>:''}
             </div>
         </div>
     </div>

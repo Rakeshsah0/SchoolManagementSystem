@@ -1,9 +1,7 @@
 import React from 'react'
 import image from "../../assets/book_read.jpg"
 import "../css/Contact.css";
-import { faPhoneSquare,faEnvelope,faHomeLg } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import {FaPhoneSquare,FaEnvelope,FaHome} from 'react-icons/fa'
 const Contact = () => {
   return (
     <div class="container" style={{ 
@@ -16,20 +14,20 @@ const Contact = () => {
       
       <div class="second-child">
         <div class="address">
-        <p><FontAwesomeIcon icon={faHomeLg} className="faAddress" /></p>
+        <p><FaHome className="faAddress" /></p>
         <p>ADDRESS</p>
         <p>Pipra Chowk, Birgunj </p>
         <p>44600</p>
         
         </div>
         <div class="call-us">
-        <p><FontAwesomeIcon icon={faPhoneSquare} className="faPhone"/></p>
+        <p><FaPhoneSquare className="faPhone"/></p>
         <p>CALL US</p>
         <p> +977-069-696969</p>
 
         </div>
         <div class="email-us">
-        <p><FontAwesomeIcon icon={faEnvelope} className="faEMail"/></p>
+        <p><FaEnvelope className="faEMail"/></p>
         <p>EMAIL US </p>
         <p> <a href="mailto:rajarakesh@company.com">rajarakesh@company.com</a> </p>
         </div>
