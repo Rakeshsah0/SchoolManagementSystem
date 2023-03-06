@@ -1,7 +1,7 @@
 import React from 'react'
 import image from "../../assets/book_read.jpg"
 import "../css/Contact.css";
-import {FaPhoneSquare,FaEnvelope,FaHome} from 'react-icons/fa'
+import {FaPhoneAlt,FaEnvelope,FaHome} from 'react-icons/fa'
 const Contact = () => {
   return (
     <div class="container" style={{ 
@@ -21,7 +21,7 @@ const Contact = () => {
         
         </div>
         <div class="call-us">
-        <p><FaPhoneSquare className="faPhone"/></p>
+        <p><FaPhoneAlt className="faPhone"/></p>
         <p>CALL US</p>
         <p> +977-069-696969</p>
 

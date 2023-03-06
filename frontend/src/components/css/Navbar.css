@@ -111,11 +111,12 @@ ul{
 }
 .courses-menu .items-menu{
     background-color: #e3e4e8;
-    width: 100%;
+    width: 120%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }
 .courses-menu .items-menu div{
     display: flex;
@@ -124,9 +125,9 @@ ul{
     width: 100%;
     margin-top: 10px;
     background-color: #e3e3e3;
-
 }
 .courses-menu .items-menu div a{
+    text-align: center;
     width: 100%;
 }
 
