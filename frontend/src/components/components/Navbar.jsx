@@ -43,7 +43,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="actual-navbar">
-  
+      <div class="icon">
+          <span class="toggle">☰</span>
+        </div>
         <div className="logo">
           <Link to='/'>
           <img src={logo} alt="logo" />
@@ -115,7 +117,23 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    
+    
+  
   )
+  $('.toggle').click(function () {
+    "use strict";
+    $('.navbar ul').slideToggle();
+});
+
+
+
+$(window).resize(function () {
+    "use strict";
+    if ($(window).width() > 780) {
+        $('.navbar ul').removeAttr('style');
+    }
+});
 }
 
 export default Navbar

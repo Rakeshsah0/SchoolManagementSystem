@@ -36,11 +36,23 @@
 .fixed-buttom-footer{
     display: flex;
     justify-content: space-evenly;
-    height: 50vh;
     background-color: #003566;
     margin-top: -40px;
     padding-top: 70px;
     z-index: 1;
+}
+@media screen and (max-width: 785px) {
+    .fixed-buttom-footer div{ 
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    font-size: large;}
+    .fixed-buttom-footer{
+        display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    
+}
 }
 
 .fixed-buttom-footer div{
