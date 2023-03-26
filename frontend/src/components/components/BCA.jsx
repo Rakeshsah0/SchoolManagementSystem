@@ -2,7 +2,7 @@ import React from 'react'
 
 const BCA = () => {
   return (
-    <div>BCA</div>
+    <div>BCA students</div>
   )
 }
 
