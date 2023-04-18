@@ -12,7 +12,7 @@ const Login = (setnavandfooter) => {
     <div>
       <Link to='/'><button onClick={()=>{setnavandfooter.setnavandfooter(true)}}>Homepage</button></Link>
       <h1>{profile}</h1>
-      Lorem ipsum dolor more details
+      Lorem ipsum dolor more details added
     </div>
   )
 }
